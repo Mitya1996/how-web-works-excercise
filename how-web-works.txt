@@ -18,12 +18,17 @@ GET POST, GET retrieves data and POST sends data
 
 What is an HTTP request?
 version, headers, body 
+An HTTP request is a request from a client to a server which follows the HTTP protocol (eg a request for HTML from news.google.com)
 
 What is an HTTP response?
 version, headers, body, status 
+An HTTP response is a response from a server to a client which follows the HTTP protocol (eg sending back HTML/CSS/JS/etc)
 
 What is an HTTP header? Give a couple examples of request and response headers you have seen.
 HTTP header is a part of a HTTP request and response, some examples are Accept-Language: fr, Accept: application/json
+Headers provide additional information about the request or the response. Here are some examples:
+Request headers: Host, User-Agent, Accept, Cookie, Cache-Control
+Response headers: Content-Type, Last-Modified, Set-Cookie, Cache-Control
 
 What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
 An HTTP request is sent to GET that resource. If there are more resources on the page.html, more GET requests are sent until all resources are loaded
